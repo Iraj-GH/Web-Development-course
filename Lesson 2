@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Sports in our Life</title>
+</head>
+
+<body>
+    <h1>Introduction of Sports</h1>
+    <p>Sports are physical activities that involve skill, competition, and teamwork. They can be played individually or in teams and help improve fitness, coordination, and mental strength. Sports are enjoyed by people of all ages and are a popular way to have fun, stay healthy, and build relationships.Some examples of Sports are:<br>
+    <mark>1> Football<br> </mark>
+<bold>2> Volleyball<br> </bold>
+<em>3> Basketball<br> </em>
+<strong>4> Tennis<br> </strong>
+<i>5> Table Tennis<br> </i>
+<small>6> Baseball<br></small>
+<Del>7> Hockey<br></Del>
+8> <sup>Bad</sup>minton<br>
+9> Rug<Sub>by</Sub><br>
+</p>
+    
+    
+</body>
+
+</html>
