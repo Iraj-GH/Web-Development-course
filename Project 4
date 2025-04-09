@@ -1,0 +1,85 @@
+<!DOCtYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>The UEFA Champions League</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <a href="https://www.google.com/search?q=The+UEFA+Champions+League&sca_esv=51482c3aa25c1847&rlz=1C1YTUH_enNP1142NP1142&sxsrf=AHTn8zrxivkKEwHmASdkd1LB2w0zSW6D9g%3A1744169697374&ei=4er1Z7TJFoSa4-EP2YmckAc&ved=0ahUKEwj0vfW5gsqMAxUEzTgGHdkEB3IQ4dUDCBA&uact=5&oq=The+UEFA+Champions+League&gs_lp=Egxnd3Mtd2l6LXNlcnAiGVRoZSBVRUZBIENoYW1waW9ucyBMZWFndWUyBBAAGEcyBBAAGEcyBBAAGEcyBBAAGEcyBBAAGEcyBBAAGEcyBBAAGEcyBBAAGEdI_whQogNYogNwAXgCkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAICoAIcwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigWYAwDiAwUSATEgQIgGAZAGCJIHATKgBwCyBwExuAcN&sclient=gws-wiz-serp"><h1>The UEFA Champions League</h1></a>
+        <img src="ucl img.jpg" alt="Image of UEFA Champions League" style="width="1500" height="600">
+        <p>The UEFA Champions League is an annual football competition organized by the Union of European Football Associations (UEFA) for top clubs across Europe. It features the best teams from domestic leagues, including the Premier League, La Liga, Serie A, and Bundesliga, competing in a series of group stages followed by knockout rounds. The tournament culminates in a final to determine the best club team in Europe. It is one of the most prestigious football competitions in the world, with legendary clubs like Real Madrid, Barcelona, and Bayern Munich having dominated its history.</p><br>
+        <p>The UEFA Champions League or The UCL in short has its own theme song and intro as well which plays before every match.<br>
+            <audio controls autoplay>
+                <source src="Usong.mp3" type="audio/mpeg">Your Browser doesn't support this function
+            </audio><br>
+        and the video, which also includes the iconic but fictional UCL stadium.<br>
+        <video width="1500" height="600" controls>
+            <source src="Uvid.mp4" type="video/mp4">Your Browser doesn't support this function.
+        </video>
+        </p> <br>
+        In this year's UCL season 2024/2025, there are 8 teams remaining. They are:
+        <ul><li>Arsenal Football Club</li>
+            <li>Real Madrid Club de Fútbol</li>
+            <li>Paris Saint-Germain Football Club</li>
+            <li>Aston Villa Football Club</li>
+            <li>Futbol Club Barcelona</li>
+            <li>Borussia Dortmund Fußball Club</li>
+            <li>Bayern München Fußball Club</li>
+            <li>Inter Milan</li>
+        </ul>        
+        <p>All of these clubs still have a chance of winning the UCL. Some may have more chance, some may have less. Some have even reached the glory multiple times before. Given below is a table including all of the mentioned data from the remaining 8 clubs. </p>
+        <h3>More Information about the Clubs</h3>
+        <table border="15">
+            <tr>
+                <th>Team</th>
+                <th>UCL Titles</th>
+                <th>Chance of winning current UCL</th>
+            </tr>        
+            <tr>
+                <td><i>Barcelona</i></td>
+                <td>5</td>  
+                <td>25%</td>             
+            </tr>
+            <tr>
+                <td><i>PSG</i></td>
+                <td>0</td>  
+                <td>23%</td>             
+            </tr>
+            <tr>
+                <td><i>Real Madrid</i></td>
+                <td>15</td>  
+                <td>22.2%</td>             
+            </tr>
+            <tr>
+                <td><i>Bayern Munich</i></td>
+                <td>6</td>  
+                <td>16.7%</td>             
+            </tr>
+            <tr>
+                <td><i>Arsenal</i></td>
+                <td>0</td>  
+                <td>12.9%</td>             
+            </tr>
+            <tr>
+                <td><i>Inter Milan</i></td>
+                <td>3</td>  
+                <td>9.1%</td>             
+            </tr>
+            <tr>
+                <td><i>Aston Villa</i></td>
+                <td>1</td>  
+                <td>3.4%</td>             
+            </tr>
+            <tr>
+                <td><i>Borrusia Dortmund</i></td>
+                <td>1</td>  
+                <td>2.4%</td>             
+            </tr>
+        </table><br>
+        <p>If you want to know more about the ucl, then I would recommend this video for your better unserstanding.<br>
+        <iframe height="300" width="750" src="https://www.youtube.com/watch?v=4AsLXuXzhrg&t=28s">Video Explanation of the UCL</iframe>
+
+    </body>
+    </html>
