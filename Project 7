@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>F.C. Barcelona</title>
+    
+    <style>
+    #in,h2{color:yellow; background-color:darkblue;}
+    /*visca barca*/
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+
+    <h1 style="color:yellow; background-color:darkblue;">F.C. Barcelona</h1>
+    <p>
+    Fútbol Club Barcelona, commonly known as Barça, is one of the most iconic football clubs in the world. Established in 1899, the club has become a symbol of Catalan identity and pride. Known for its motto "Més que un club" ("More than a club"), Barça stands out not only for its sporting achievements but also for its social and cultural influence. The club's commitment to community and youth development has made it a global inspiration.
+</p>
+
+<p>
+    Over the decades, Barcelona has built a legacy through unforgettable players like Johan Cruyff, Ronaldinho, Xavi, Iniesta, and Lionel Messi. Their beautiful, attacking style of play—especially the famous Tiki-Taka approach—has left fans and rivals in awe. With its historic La Masia academy and the legendary Camp Nou stadium, Barça continues to represent excellence, passion, and unity in world football. Whether celebrating a trophy win or standing strong in tough times, the Barça spirit endures.
+</p>
+
+    <p>Join the official fan club or share your love for Barça!</p>
+
+    <form>
+        <fieldset>
+            <legend><h2>Fan Information</h2></legend>
+
+            <label><h3 style="color:yellow; background-color:darkblue;">Full Name:</h3></label>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <label><h3 style="color:yellow; background-color:darkblue;">Create a Password:</h3></label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <p><h3>Favorite Era:</h3></p>
+            <input type="radio" id="ronaldinho" name="Era" value="ronaldinho">
+            <label>Ronaldinho Era</label><br>
+
+            <input type="radio" id="messi" name="era" value="messi">
+            <label>Messi Era</label><br>
+
+            <input type="radio" id="modern" name="era" value="modern">
+            <label>Modern Squad</label><br><br>
+
+            <p><h3>Favorite Aspects of Barça:</h3></p>
+            <input type="checkbox" id="style" name="aspect" value="style">
+            <label>Tiki-Taka Playstyle</label><br>
+
+            <input type="checkbox" id="la-masia" name="aspect" value="la-masia">
+            <label>La Masia Academy</label><br>
+
+            <input type="checkbox" id="stadium" name="aspect" value="stadium">
+            <label>Spotify Camp Nou</label><br><br>
+
+            <input type="button" value="Força Barça!" id="in"><br><br>
+
+            <input type="submit" value="Join the Fan Club" id="in">
+        </fieldset>
+    </form>
+    <p>
+    No matter where you're from or how long you've been a supporter, being part of the Barça family means embracing a tradition of excellence, passion, and unity. As the club looks ahead to a bright future with a new generation of talent, fans around the world continue to stand together with pride. Join us in celebrating the legacy and future of F.C. Barcelona—because once a culér, always a culér. Força Barça!
+</p>
+
+
+</body>
+</html>
+
+
+CSS
+
+*{background-color:darkred; color:white;}
+
+p,legend,label,h3{color:yellow; background-color:darkblue;}
