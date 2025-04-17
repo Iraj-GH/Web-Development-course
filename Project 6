@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>F.C. Barcelona Fan Form</title>
+</head>
+
+<body>
+
+    <h1>F.C. Barcelona Fan Club</h1>
+    <p>Join the official fan club or share your love for Barça!</p>
+
+    <form>
+        <fieldset>
+            <legend>Fan Information</legend>
+
+            <label>Full Name:</label>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <label>Create a Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <p>Favorite Era:</p>
+            <input type="radio" id="ronaldinho" name="Era" value="ronaldinho">
+            <label>Ronaldinho Era</label><br>
+
+            <input type="radio" id="messi" name="era" value="messi">
+            <label>Messi Era</label><br>
+
+            <input type="radio" id="modern" name="era" value="modern">
+            <label>Modern Squad</label><br><br>
+
+            <p>Favorite Aspects of Barça:</p>
+            <input type="checkbox" id="style" name="aspect" value="style">
+            <label>Tiki-Taka Playstyle</label><br>
+
+            <input type="checkbox" id="la-masia" name="aspect" value="la-masia">
+            <label>La Masia Academy</label><br>
+
+            <input type="checkbox" id="stadium" name="aspect" value="stadium">
+            <label>Spotify Camp Nou</label><br><br>
+
+            <input type="button" value="Força Barça!"><br><br>
+
+            <input type="submit" value="Join the Fan Club">
+        </fieldset>
+    </form>
+
+</body>
+</html>
