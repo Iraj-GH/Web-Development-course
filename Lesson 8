@@ -1,42 +1,16 @@
-<!DOCTYPE html>
-
 <html>
 
 <head>
 
 <style>
 
-/* The animation code */
+#grad1 {
 
-@keyframes example {
+height: 400px;
 
-0% {background-color: red;}
+background-color: red; /* For browsers that do not support gradients */
 
-25% {background-color: yellow;}
-
-50% {background-color: blue;}
-
-100% {background-color: green;}
-
-}
-
-</style>
-
-</head>
-
-/* The element to apply the animation to */
-
-div {
-
-width: 100px;
-
-height: 100px;
-
-background-color: red;
-
-animation-name: example;
-
-animation-duration: 4s;
+background-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
 
 }
 
@@ -46,9 +20,9 @@ animation-duration: 4s;
 
 <body>
 
-<div>
+<div id="grad1" style="text-align:center;margin:auto;color:#888888;font-size:40px;font-weight:bold">
 
-Hi
+Welcome to Codingal
 
 </div>
 
