@@ -10,7 +10,7 @@
       color: white;
       font-family: sans-serif;
       background-color:red;
-      background-image: url("https://assets.onecompiler.app/43fkajz9p/43fnw5udc/poon-hill-nepal-himalayas-hill-station-snow-covered-3840x2160-3521%20(1).jpg");
+      background-image: himalayas.jpeg
       background-position: center;
       background-repeat: space;
       background-attachment: scroll;
