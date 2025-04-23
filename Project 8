@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Nepal</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body{
+      color: white;
+      font-family: sans-serif;
+      background-color:red;
+      background-image: url("https://assets.onecompiler.app/43fkajz9p/43fnw5udc/poon-hill-nepal-himalayas-hill-station-snow-covered-3840x2160-3521%20(1).jpg");
+      background-position: center;
+      background-repeat: space;
+      background-attachment: scroll;
+    }
+
+    legend,p{
+      background: linear-gradient(to right, red, blue);
+    }
+  </style>
+</head>
+<body>
+  <fieldset>
+    <legend><h1>Nepal</h1></legend>
+
+  <p>
+    Nepal is a small, landlocked country located in the heart of the Himalayas, bordered by China to the north and India to the south, east, and west. Despite its size, Nepal is home to some of the world’s most diverse geography and ecosystems. The country's most prominent feature is its mountainous terrain, with the mighty Himalayas forming the northern boundary. It is also the birthplace of Lord Buddha in Lumbini, making it an important destination for religious tourism. The country’s natural beauty, from the lush forests of the Terai to the snow-capped peaks of the Himalayas, makes it a prime location for adventurers, photographers, and nature enthusiasts. Besides its incredible landscapes, Nepal is a melting pot of various ethnic groups, cultures, and languages, which contribute to its vibrant social fabric. The people of Nepal are known for their warmth, hospitality, and strong community bonds. The rich cultural diversity combined with stunning natural beauty makes Nepal a unique destination for both tourists and researchers.
+  </p>
+
+  <p>
+    The history of Nepal is a tapestry woven with centuries of dynastic rule, cultural development, and political change. The Malla Kings, who ruled from the 12th to the 18th centuries, are credited with creating some of the most magnificent temples, palaces, and structures that still stand as testaments to the country’s cultural heritage. Nepal’s independence was a matter of pride for the nation, as it was never colonized by foreign powers, despite the presence of the British Empire in South Asia. This resistance to colonization is a significant point in Nepal’s history, setting it apart from many of its neighbors. The monarchy, which ruled Nepal for centuries, was abolished in 2008, and the country transitioned into a federal democratic republic. The shift from monarchy to republic came after a decade-long civil war and the subsequent signing of the Comprehensive Peace Agreement in 2006. Today, Nepal is governed by a parliamentary system with a president as the ceremonial head of state and a prime minister as the head of government.
+  </p>
+
+  <p>
+    Nepal is home to some of the most breathtaking landscapes on Earth. The country’s geography is incredibly diverse, ranging from the flat plains of the Terai region to the towering peaks of the Himalayas. In the north, the Himalayan range contains eight of the world’s 14 highest peaks, including the mighty Mount Everest, the tallest mountain in the world. The Annapurna region, another world-renowned trekking destination, offers awe-inspiring views of snow-covered peaks and is known for the Annapurna Circuit, a popular hiking trail that attracts trekkers from all over the world. Additionally, the country’s national parks and wildlife reserves, such as Chitwan National Park and Sagarmatha National Park, are home to an array of wildlife, including Bengal tigers, one-horned rhinoceroses, and red pandas. These protected areas are also key to the conservation of Nepal’s biodiversity and natural heritage. Nepal's varied topography and climate make it a haven for biodiversity, offering habitats for species that are not found anywhere else in the world.
+  </p>
+
+  <p>
+    Nepal's culture is deeply rooted in its Hindu and Buddhist traditions, which have shaped the country for centuries. The majority of Nepalese people are Hindu, but there is also a significant Buddhist population, particularly in the regions around the Kathmandu Valley and the northern parts of the country. The architecture of Nepal reflects this cultural influence, with intricate temples, stupas, and monasteries found throughout the country. One of the most famous religious sites is the Pashupatinath Temple, located on the banks of the Bagmati River in Kathmandu. This sacred temple is dedicated to Lord Shiva and attracts thousands of pilgrims every year. Nepal is also home to Lumbini, the birthplace of Buddha, which is considered one of the holiest sites in Buddhism. Festivals play a significant role in the lives of the people of Nepal, with celebrations such as Dashain and Tihar being important occasions for family reunions, feasts, and religious observances. These festivals reflect the rich cultural heritage of the nation and foster a sense of unity among Nepalese people, regardless of their ethnic background.
+  </p>
+
+  <p>
+    The economy of Nepal is largely dependent on agriculture, tourism, and remittances from Nepalese working abroad. Agriculture is the primary livelihood for the majority of the population, with rice, maize, wheat, and millet being the staple crops. However, despite its agricultural base, Nepal faces challenges such as low productivity and dependency on imports for many goods. Tourism, particularly eco-tourism and adventure tourism, has emerged as an important sector of the economy. Nepal’s trekking and mountaineering industry brings in millions of dollars annually, with Everest Base Camp and the Annapurna Circuit being popular destinations for travelers. In recent years, the government has also focused on improving infrastructure, including roads, airports, and telecommunications, to make the country more accessible to international tourists. In addition to agriculture and tourism, Nepal relies heavily on remittances sent by Nepali migrants working in countries such as the United States, Qatar, and Malaysia. These remittances contribute significantly to the national economy and the livelihoods of many families.
+  </p>
+
+  <p>
+    Despite facing numerous challenges, Nepal has shown remarkable resilience in the face of adversity. The country has been struck by natural disasters, including devastating earthquakes, which have left lasting impacts on its people and infrastructure. The 2015 earthquake, which struck Nepal with a magnitude of 7.8, caused widespread damage and loss of life, particularly in the Kathmandu Valley. The aftermath of the earthquake prompted both local and international efforts to rebuild the country and provide humanitarian aid to affected communities. However, rebuilding efforts have been slow, with many regions still struggling to recover fully. Additionally, political instability and corruption have posed challenges to governance, but the Nepali people have remained determined to overcome these obstacles. Nepal’s resilience is evident in its vibrant communities, its strong sense of identity, and its unwavering hope for a brighter future. The spirit of the Nepalese people continues to shine through their ability to adapt, rebuild, and forge ahead, even in the face of difficult circumstances.
+  </p>
+
+  <p>
+    Education in Nepal has made significant strides in recent years, although challenges remain. The government has made efforts to increase access to education, particularly for girls and marginalized communities, through programs aimed at improving literacy rates and reducing dropout rates. However, the quality of education remains inconsistent, particularly in rural areas, where schools may lack basic infrastructure, teaching materials, and trained teachers. Despite these challenges, Nepal has seen an increase in enrollment rates at both the primary and secondary levels. Additionally, there has been a growing emphasis on higher education, with institutions such as Tribhuvan University and Kathmandu University offering a variety of academic programs. International organizations and NGOs play a crucial role in supporting educational initiatives in Nepal, helping to improve the quality of education and provide resources to underserved communities. The country's education system continues to evolve, and with ongoing support and investment, it holds the potential to provide greater opportunities for the next generation of Nepali citizens.
+  </p>
+
+  </fieldset>
+</body>
+</html>
