@@ -1,0 +1,48 @@
+<!DOCtYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>My School</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+<style>
+  h1,{
+    text-align: center;}
+    
+   h1,h3{ box-shadow: 13px 9px 20px #301934;
+    text-shadow: 2px 1px 4px #5d6d7e;
+    text-decoration: underline;
+    text-transform: Uppercase;}
+
+    
+  p{
+    text-indent: 15%
+  }
+</style>
+
+</head>
+
+<body>
+
+<h1>SOS Hermann Gmiener School Gandaki</h1>
+
+<h3>Introduction</h3>
+<p>SOS Hermann Gmeiner School Gandaki is a well-known educational institution located in Rambazar, Pokhara, Nepal. Established in 1982, the school was founded to provide education for children from SOS Children’s Village Gandaki, especially those who lost their homes during a massive landslide in Kaski and Syangja districts in 1980. Over the years, the school has expanded to include students from the local community, offering classes from Nursery to Grade 12. Its peaceful location and strong academic foundation make it one of the most respected schools in the region.</p>
+
+<h3>Values and Inclusiveness</h3>
+<p>The school follows the ideals of Hermann Gmeiner, the founder of SOS Children's Villages, who believed that all children deserve love, care, and quality education. This belief is strongly reflected in the school’s inclusive environment. It welcomes students from different backgrounds—some from SOS villages, some on scholarships, and others who pay regular fees. This diverse student body helps create a supportive and respectful learning atmosphere where students learn to value each other's differences.</p>
+
+<h3>Academic Excellence</h3>
+<p>Academically, SOS Hermann Gmeiner School Gandaki has made impressive progress. It was the first among the SOS schools in Nepal to introduce the Science stream in Grades 11 and 12. The school focuses on both theoretical and practical learning, helping students perform well in national-level exams. Teachers here are highly qualified and dedicated to bringing out the best in every student. Besides academics, the school also encourages co-curricular participation in areas like debates, science fairs, music, dance, and sports.</p>
+
+<h3>Facilities and Environment</h3>
+<p>The school is well-equipped with modern facilities. It has spacious classrooms, fully functional science and computer laboratories, a large library, and audio-visual rooms to aid in interactive learning. The school also provides healthcare, counseling services, and recreational activities to promote students' physical and emotional well-being. The campus itself is green, clean, and calm, offering a perfect environment for students to focus on their studies and grow in every aspect.</p>
+
+<h3>Recognition and Impact</h3>
+<p>SOS Hermann Gmeiner School Gandaki has been recognized nationally for its commitment to quality education and social inclusion. It was even awarded the title of Best School by the Government of Nepal. This honor shows how dedicated the school is to its mission of providing education with love, care, and discipline. As it continues to grow and evolve, the school remains a symbol of hope and opportunity for children from all walks of life.</p>
+
+</body>
+
+</html>
