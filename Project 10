@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Soda</title>
+        <style>
+            div > p {
+                color: darkblue;
+            }
+
+            h1 + h2 {
+                color: green;
+            }
+
+            h2 + p {
+                font-style: italic;
+            }
+
+            li:nth-child(3) {
+                background-color: lightyellow;
+            }
+
+            li:not(.no-sugar) {
+                font-weight: bold;
+            }
+
+            h1::before {
+                content: "🥤 ";
+            }
+
+            h1::after {
+                content: " 🥤";
+            }
+
+            p::first-letter {
+                font-size: 20px;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Soda</h1>
+        <h2>What is Soda?</h2>
+        <p>Soda is a sweet, carbonated drink enjoyed worldwide.</p>
+        <p>Most sodas contain sugar, water, and flavoring.</p>
+
+        <div>
+            <p>Cola is the most popular soda flavor globally.</p>
+            <div>
+                <p>This paragraph is not a direct child of the outer div.</p>
+            </div>
+        </div>
+
+        <h2>Popular Brands</h2>
+        <ul>
+            <li>Coca-Cola</li>
+            <li>Pepsi</li>
+            <li>Sprite</li>
+            <li class="no-sugar">Diet Pepsi</li>
+            <li>Mountain Dew</li>
+        </ul>
+
+    </body>
+</html>
