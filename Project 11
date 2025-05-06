@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Pizza</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f9;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                width: 500px;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: #fff;
+                box-shadow: 0 0 20px;
+            }
+
+            h1, h2 {
+                color: #d9534e;
+            }
+
+            .section {
+                margin-bottom: 20px;
+            }
+
+            .section p {
+              font-size: 16px;
+            }
+
+            .pizza-recipe {
+                padding: 15px;
+                margin-top: 20px;
+                border: 1px solid #ddd;
+                background-color: #f9f9f9;
+                float: left;
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }
+
+            .pizza-recipe ul {
+              padding-left: 0;
+            }
+
+            .pizza-recipe li {
+                padding: 5px 0;
+            }
+
+            .pizza-recipe img {
+                width: 60px;
+                height: 60px;
+                float: right;
+                margin-left: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>Pizza: The Ultimate Italian Delight</h1>
+
+            <div class="section">
+                <h2>Origin of Pizza</h2>
+                <p>Pizza, as we know it today, originated in Italy, with the earliest versions appearing in Naples. It began as a simple dish for the poor, with flatbreads topped with local ingredients such as tomatoes, cheese, and olive oil. Over time, it became more popular and spread across the world, evolving into various styles.</p>
+            </div>
+
+            <div class="section">
+                <h2>Classic Pizza Recipes</h2>
+                <p>Here are some of the most popular pizza recipes:</p>
+                
+                <div class="pizza-recipe">
+                    <h3>Margherita Pizza</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Margherita_pizza.jpg" alt="Margherita Pizza">
+                    <ul>
+                        <li>Ingredients: Tomato sauce, mozzarella cheese, fresh basil, olive oil</li>
+                        <li>Instructions: Spread tomato sauce on dough, add mozzarella, bake in a hot oven, and top with fresh basil after baking.</li>
+                    </ul>
+                </div>
+
+                <div class="pizza-recipe">
+                    <h3>Chicken Pizza</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Chicken_pizza.jpg" alt="Chicken Pizza">
+                    <ul>
+                        <li>Ingredients: Tomato sauce, mozzarella cheese, grilled chicken, herbs</li>
+                        <li>Instructions: Spread sauce on dough, add mozzarella and grilled chicken, bake until golden and delicious.</li>
+                    </ul>
+                </div>
+
+                <div class="pizza-recipe">
+                    <h3>Vegetarian Pizza</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Vegetarian_pizza.jpg" alt="Vegetarian Pizza">
+                    <ul>
+                        <li>Ingredients: Tomato sauce, mozzarella cheese, bell peppers, onions, mushrooms, olives</li>
+                        <li>Instructions: Spread sauce on dough, layer vegetables and mozzarella, bake until golden and delicious.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Fun Pizza Facts</h2>
+                <p>Did you know that pizza is one of the most popular foods in the world? Each year, over 5 billion pizzas are sold globally. And the first pizzeria in the United States was opened in New York City in 1905!</p>
+            </div>
+        </div>
+
+    </body>
+</html>
