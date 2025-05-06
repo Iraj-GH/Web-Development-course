@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Sleep</title>
+        <style>
+            body {
+                background-color: midnightblue;
+                color: white;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            h1 {margin-top: 50px;
+                color: lightgray;
+            }
+            div {
+                width: 80%;
+                max-width: 600px;
+                background-color: #343071  ;
+                color: white;
+                padding: 20px;
+                margin-bottom: 20px;              
+                opacity: 0.9;
+            }
+            .fixed {
+                position: fixed;
+                width: 40%;
+                right: 350px;
+                top:320px;
+            }
+            .static {
+                position: static;
+                top: 290px;             
+                }
+          
+            .relative {a
+                 width: 40%;
+                right: 160px;
+                position: relative;
+                top: 360px;
+            }
+            .absolute {
+                position: absolute;
+                 width: 40%;
+                left: 350px;
+                top: 320px;
+               
+            }
+            .sticky {
+                position: sticky;
+                 width: 40%;
+                left: 350px;
+                top: 100px;
+              
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Sleep</h1>
+        <div class="fixed">
+            Sleep is a vital process that is essential for maintaining physical and mental health. It allows the body to rest, recharge, and repair itself after the demands of daily life. Without sufficient sleep, the body and mind cannot function properly, leading to a variety of health issues such as fatigue, mood swings, and impaired cognitive abilities. 
+        </div>
+       
+        <div class="static">
+            One of the most significant benefits of a good night's sleep is its impact on memory and cognitive function. During sleep, the brain consolidates memories and processes the information absorbed throughout the day. This allows for better problem-solving skills, increased creativity, and improved focus during waking hours. Poor sleep, on the other hand, can lead to forgetfulness, confusion, and decreased mental sharpness, making sleep essential for optimal brain function.
+        </div>
+       
+        <div class="relative">
+            Sleep is also closely tied to physical health. It plays a critical role in maintaining the immune system, which helps the body fight off infections. During sleep, the body releases growth hormones that repair tissues and muscles, keeping the body strong and healthy. .
+        </div>
+       
+        <div class="absolute">
+            The importance of a regular sleep schedule cannot be overstated. Going to bed and waking up at the same time every day helps regulate the body's internal clock, making it easier to fall asleep and wake up naturally. A consistent sleep also helps the body.
+        </div>
+
+        <div class="sticky">
+            Sleep requirements vary by age, but most adults need 7-9 hours of sleep each night to function at their best. Children and teenagers generally need more sleep to support their growth and development. The quality of sleep is just as important as the quantity, with uninterrupted sleep being most restorative. Factors such as stress, diet, and lifestyle can affect sleep quality, so it is important to create a comfortable, relaxing sleep environment to ensure restful and rejuvenating sleep.
+        </div>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+</html>
