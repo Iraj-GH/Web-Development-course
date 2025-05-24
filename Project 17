@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fried Chicken Heaven</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-XAEho7E1YIq5j3pws1uM4gU9lNmMEGxwFgMlcWZ0Ws0GqW4AnYQ10J6NnNULm/xM" crossorigin="anonymous"></script>
+  <style>
+    .container1, .col-md-14, .collapse, .page { color: #FFFFFF; background-color: #F9B042 }
+    body { color: #FFFFFF; background-color: #C96619 }
+    .container { color: #000000; }
+    .card { color: #FFFFFF; background-color: #F9B042 }
+    .navbar-custom {
+      background-color: #F9B042:
+    }
+    .navbar .navbar-brand,
+    .navbar-custom .nav-link {
+      color: #fff;
+      font-weight: bold;
+    }
+    .navbar-custom .nav-link:hover {
+      color: #000;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">I.F.C.</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">DELIVERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SETTINGS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1><b><center>I.F.C</center><br>
+          Crispy, juicy, and golden—just the way you love it!</b></h1>
+        <button class="btn btn-primary" type="button"><b>ORDER NOW!</b></button><div class="spinner-border"></div>
+    </div>
+  </div>
+
+  <div class="col-md-14 justify-content-center mb-6">
+    <center><h2>---C H O O S E---Y O U R---F L A V O U R---</h2>---
+    <button type="button" class="btn btn-warning"><b>Spicy</b></button>---<button type="button" class="btn btn-success"><b>Herb</b></button>---<button type="button" class="btn btn-danger"><b>Extra Crispy</b></button>---</center>
+  </div>
+  <br>
+
+  
+  <div class="container1">
+    <h3>Our Bestsellers <span class="badge bg-success">Top Rated</span></h3>
+    <b><ul>
+      <li>Classic Fried Chicken <span class="badge bg-primary">Popular</span></li>
+      <li>Zesty Wings <span class="badge bg-danger">Hot</span></li>
+      <li>Buttermilk Chicken <span class="badge bg-info">New</span></li>
+    </ul></b>
+  </div>
+  <br>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4 d-flex justify-content-center mb-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://assets.surlatable.com/m/3a06d31be15bd69f/72_dpi_webp-REC-292887-Fried_Chicken.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Classic Fried Chicken</h5>
+            <p class="card-text">Popular</p>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center mb-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://getsidedish.com/cdn/shop/articles/Zesty_Wings_with_Chipotle_Ranch_SideDishV2_1_1200x1200.jpg?v=1667837013" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Zesty wings</h5>
+            <p class="card-text">HOT!</p>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center mb-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://www.sugarandsoul.co/wp-content/uploads/2021/09/buttermilk-chicken-1-2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Buttermilk Chicken</h5>
+            <p class="card-text">New!</p>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container1">
+    <h4>Cooking Progress</h4>
+    <div class="progress">
+      <div class="progress-bar bg-success" type="progressbar" style="width: 70%;">
+        70% Ready
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div class="page">
+
+<h5>Pages</h5>
+
+<ul class="pagination">
+  <li class="page-item">
+    <a class="page-link" href="#">Previous</a>
+</li>
+<li class="page-item">
+<a class="page-link" href="#">1</a>
+</li>
+<li class="page-item">
+<a class="page-link" href="#">2</a>
+</li>
+<li class="page-item">
+<a class="page-link" href="#">3</a>
+</li>
+<li class="page-item">
+<a class="page-link" href="#">Next</a>
+</li>
+</ul>
+</div>
+
+
+</body>
+</html>
