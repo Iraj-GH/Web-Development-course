@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fried Chicken Heaven</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    crossorigin="anonymous"
+  />
+  <style>
+    body {
+      margin-top: 70px;
+      background-color: #c96619;
+      color: #fff;
+    }
+    .navbar-custom {
+      background-color: #f9b042;
+    }
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      font-weight: bold;
+    }
+    .nav-classic {
+      color: #007bff !important;
+    }
+    .nav-zesty {
+      color: #dc3545 !important;
+    }
+    .nav-buttermilk {
+      color: #17a2b8 !important;
+    }
+    .nav-about {
+      color: #28a745 !important;
+    }
+    .nav-settings {
+      color: #6c757d !important;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #000 !important;
+    }
+    .container1 {
+      color: #fff;
+      background-color: #f9b042;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    #c {
+      background-color: #007bff;
+      color: white;
+      padding: 2rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+    }
+    #z {
+      background-color: #dc3545;
+      color: white;
+      padding: 2rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+    }
+    #b {
+      background-color: #17a2b8;
+      color: white;
+      padding: 2rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+    }
+    .jumbotron {
+      color: black;
+    }
+
+    .col-md-4 {
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+  <a class="navbar-brand" href="#">I.F.C.</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon" ></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link nav-classic" href="#c">Classic Fried Chicken</a></li>
+      <li class="nav-item"><a class="nav-link nav-zesty" href="#z">Zesty Wings</a></li>
+      <li class="nav-item"><a class="nav-link nav-buttermilk" href="#b">Buttermilk Chicken</a></li>
+      <li class="nav-item"><a class="nav-link nav-about" href="#">About Us</a></li>
+      <li class="nav-item"><a class="nav-link nav-settings" href="#">Settings</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid" color="bl">
+  <div class="container">
+      <h1><b><center>I.F.C</center><br>
+        Crispy, juicy, and golden—just the way you love it!</b></h1>
+      <button class="btn btn-primary" type="button"><b>ORDER NOW!</b></button><div class="spinner-border"></div>
+  </div>
+</div>
+
+<div class="col-md-14 justify-content-center mb-6">
+  <center><h2>---C H O O S E---Y O U R---F L A V O U R---</h2>--- 
+  <button type="button" class="btn btn-warning"><b>Spicy</b></button>---<button type="button" class="btn btn-success"><b>Herb</b></button>---<button type="button" class="btn btn-danger"><b>Extra Crispy</b></button>---</center>
+</div>
+<br>
+
+<div class="container1">
+  <h3>Our Bestsellers <span class="badge bg-success">Top Rated</span></h3>
+  <b><ul>
+    <li>Classic Fried Chicken <span class="badge bg-primary">Popular</span></li>
+    <li>Zesty Wings <span class="badge bg-danger">Hot</span></li>
+    <li>Buttermilk Chicken <span class="badge bg-info">New</span></li>
+  </ul></b>
+</div>
+<br>
+
+<div class="container">
+  <div id="c">
+    <h1>Classic Fried Chicken</h1>
+    <p>
+      Classic Fried Chicken is the timeless dish that has captured hearts and appetites around the world for generations. It starts with high-quality chicken pieces, carefully seasoned with a blend of secret spices that provide a perfect balance of savory and aromatic flavors. The chicken is then dipped in a buttermilk marinade that tenderizes the meat, ensuring it remains juicy and succulent after frying. Each piece is hand-breaded with a crispy coating made from a mixture of flour, herbs, and spices, which when fried to golden perfection, delivers a satisfyingly crunchy texture that contrasts beautifully with the tender meat inside.
+      This dish is beloved for its comforting qualities — the warmth, the crunch, and the familiar taste that brings back memories of family dinners and festive gatherings. The aroma of Classic Fried Chicken wafting through the kitchen instantly ignites an appetite, while the first bite delivers a delightful explosion of taste and texture. Whether enjoyed with traditional sides like mashed potatoes and coleslaw or savored on its own, Classic Fried Chicken remains a staple in fast food and home cooking alike. It's a dish that transcends age and culture, proving that simplicity done right is unbeatable.
+      In recent years, chefs have experimented with variations of this classic, adding unique twists while preserving the core essence. From adding a hint of garlic or paprika to incorporating regional spices, the variations celebrate the versatility of this dish. But no matter the twist, the heart of Classic Fried Chicken lies in its crispy, juicy, and perfectly seasoned pieces that keep fans coming back time and again. Its popularity continues to soar in restaurants and homes, making it a beloved culinary icon.
+      When you bite into a piece of Classic Fried Chicken, you’re experiencing more than just a meal; you’re savoring tradition, quality, and the joy of great food shared with loved ones. It’s a dish that invites you to slow down, enjoy each mouthful, and relish the perfect marriage of crispiness and tenderness that only the classic recipe can deliver.
+    </p>
+  </div>
+
+  <div id="z">
+    <h1>Zesty Wings</h1>
+    <p>
+      Zesty Wings are the ultimate treat for those who crave a burst of bold flavor and a kick of heat in every bite. These wings are marinated in a spicy blend that often includes cayenne pepper, garlic, and other chili powders, creating a tantalizing heat that awakens the taste buds and leaves a lasting impression. The marinade penetrates deeply into the chicken, infusing it with a vibrant and tangy zest that perfectly complements the crispy fried exterior. After marination, the wings are battered lightly and fried until they achieve a golden crunch that locks in all the juicy goodness inside.
+      What makes Zesty Wings stand out is their complex flavor profile — a brilliant balance between spicy, savory, and slightly tangy notes. The heat level can be customized to suit any palate, from mild warmth to a fiery blaze for the daring. The wings are often served with cooling dips like ranch or blue cheese to provide relief from the spice and enhance the overall eating experience. Their addictive flavor has made Zesty Wings a favorite at parties, sports events, and casual dinners where friends gather to enjoy food that packs a punch.
+      Beyond their fiery taste, Zesty Wings offer a sensory experience with their crispy skin and succulent meat. The contrast between the crunchy outside and tender inside provides a satisfying texture that keeps people reaching for “just one more.” They’re also versatile — great as an appetizer or main dish and easily paired with a variety of sides such as celery sticks, carrot sticks, or seasoned fries.
+      Over time, Zesty Wings have become an emblem of spicy fried chicken culture, inspiring numerous variations worldwide. From classic buffalo wings to more exotic spice blends, they continue to excite and delight. Whether you prefer a smoky chipotle flavor or a tangy citrus glaze, Zesty Wings bring excitement and boldness to your plate, making every meal memorable and fun.
+    </p>
+  </div>
+
+  <div id="b">
+    <h1>Buttermilk Chicken</h1>
+    <p>
+      Buttermilk Chicken is a savory delight that elevates fried chicken to new levels of tenderness and flavor. The magic behind this dish lies in its marinade: fresh buttermilk infused with herbs, garlic, and spices that soak into the chicken for hours, breaking down the proteins and tenderizing the meat to juicy perfection. This process results in chicken that is incredibly soft and flavorful on the inside, while maintaining a golden, crispy coating on the outside after frying.
+      The buttermilk’s slight tanginess perfectly complements the rich, savory notes of the spices used, creating a harmonious flavor profile that feels both comforting and indulgent. Each bite reveals a succulent interior enveloped by a crunchy crust that crackles pleasingly with every chew. Buttermilk Chicken is often considered the pinnacle of fried chicken recipes because of its superior juiciness and delicate seasoning that isn’t overpowering but simply enhances the natural flavors of the chicken.
+      This style of fried chicken pairs wonderfully with a variety of sides, from buttery mashed potatoes and honey-drizzled cornbread to crisp coleslaw and pickled vegetables, balancing richness with fresh acidity. It has become a popular choice in southern-style cooking and has made its way into menus worldwide as a favorite comfort food.
+      Many chefs experiment with the buttermilk marinade by adding unique ingredients such as hot sauce, smoked paprika, or fresh herbs like thyme and rosemary to create signature versions of this classic. Despite the variations, the essence of Buttermilk Chicken remains the same — a dish that delivers juicy, tender meat coated in a golden, crunchy crust that’s bursting with flavor and leaves you craving more. It’s a culinary experience that’s as satisfying as it is memorable.
+    </p>
+  </div>
+</div>
+
+ <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4 d-flex justify-content-center mb-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://assets.surlatable.com/m/3a06d31be15bd69f/72_dpi_webp-REC-292887-Fried_Chicken.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Classic Fried Chicken</h5>
+            <p class="card-text">Popular</p>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center mb-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://getsidedish.com/cdn/shop/articles/Zesty_Wings_with_Chipotle_Ranch_SideDishV2_1_1200x1200.jpg?v=1667837013" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Zesty wings</h5>
+            <p class="card-text">HOT!</p>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center mb-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://www.sugarandsoul.co/wp-content/uploads/2021/09/buttermilk-chicken-1-2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Buttermilk Chicken</h5>
+            <p class="card-text">New!</p>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<div class="container1">
+  <h4>Cooking Progress</h4>
+  <div class="progress">
+    <div class="progress-bar bg-success" role="progressbar" style="width: 70%;">
+      70% Ready
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="page">
+  <h5>Pages</h5>
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#">Previous</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">1</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">2</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">3</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>
