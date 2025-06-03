@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Setting a default value to a function parameter and displaying product and sum.</p>
+    <p id="demo"></p>
+
+    <script>
+      function myFunction(x, y) {
+        if (y == undefined) {
+          y = 31;
+        }
+        let product = x * y;
+        let sum = x + y;
+        return "Product: " + product + "<br>Sum: " + sum;
+      }
+
+      document.getElementById("demo").innerHTML = myFunction(13);
+    </script>
+  </body>
+</html>
