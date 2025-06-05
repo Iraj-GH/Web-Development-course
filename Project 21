@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Methods</title>
+</head>
+<body>
+
+<div id="basicMethods"></div>
+
+<button onclick="myFunction()">Check 'try'</button>
+<p id="regexpResult"></p>
+
+<p id="dayDisplay"></p>
+
+<script>
+var str = "bArCeLOna";
+let basicOutput = "";
+basicOutput += str.toUpperCase() + "<br>";
+basicOutput += str.toLowerCase() + "<br>";
+basicOutput += str.startsWith('i') + "<br>";
+basicOutput += Math.random() + "<br>";
+basicOutput += (Math.random() * 100) + "<br>";
+basicOutput += Math.floor(3.99);
+document.getElementById("basicMethods").innerHTML = basicOutput;
+
+function myFunction() {
+  var str = "I learnt about Methods";
+  var patt = new RegExp("try");
+  var res = patt.test(str);
+  document.getElementById("regexpResult").innerHTML = res;
+}
+
+var day;
+switch (new Date().getDay()) {
+  case 0: day = "Sunday"; break;
+  case 1: day = "Monday"; break;
+  case 2: day = "Tuesday"; break;
+  case 3: day = "Wednesday"; break;
+  case 4: day = "Thursday"; break;
+  case 5: day = "Friday"; break;
+  case 6: day = "Saturday";
+}
+document.getElementById("dayDisplay").innerHTML = "Today is " + day;
+</script>
+
+</body>
+</html>
