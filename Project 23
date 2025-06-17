@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FC Barcelona JavaScript Basics</title>
+<style>
+  :root {
+    --fcb-blue: #004D98;
+    --fcb-red: #A50044;
+    --fcb-gold: #FFC72C;
+    --fcb-white: #FFFFFF;
+    --fcb-dark: #020203;
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--fcb-blue);
+    color: var(--fcb-white);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  header {
+    background: var(--fcb-red);
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+    margin-bottom: 30px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    letter-spacing: 3px;
+    color: var(--fcb-gold);
+    text-shadow: 1px 1px 2px var(--fcb-dark);
+  }
+  .container {
+    max-width: 900px;
+    width: 100%;
+    background: var(--fcb-red);
+    border-radius: 12px;
+    padding: 25px 30px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+    margin-bottom: 25px;
+  }
+  .container h2 {
+    color: var(--fcb-gold);
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--fcb-gold);
+    padding-bottom: 6px;
+  }
+  .container p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: var(--fcb-white);
+    margin-bottom: 15px;
+  }
+  .highlight {
+    background: var(--fcb-gold);
+    color: var(--fcb-red);
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>FC Barcelona JavaScript Basics</h1>
+</header>
+<div class="container">
+  <h2>FC Barcelona Squad Array</h2>
+  <p id="arrayDemo"></p>
+</div>
+<div class="container">
+  <h2>Player Stats: <span class="highlight">join()</span> and <span class="highlight">pop()</span></h2>
+  <p>Goals scored by key forwards, joined by '*' and updated after the latest match.</p>
+  <p id="joinResult"></p>
+  <p id="beforePop"></p>
+  <p id="afterPop"></p>
+</div>
+<div class="container">
+  <h2>Functions: Calculate Average Goals per Match</h2>
+  <p>Average goals scored by Lamine Yamal and Raphinha in recent games.</p>
+  <p id="functionResult"></p>
+</div>
+<script>
+  var squad = ["Lamine Yamal", "Raphinha", "Robert Lewandowski"];
+  document.getElementById("arrayDemo").textContent = "Third player in the FC Barcelona squad: " + squad[2];
+  var goals = [7, 5, 10, 8];
+  document.getElementById("joinResult").textContent = "Goals scored (joined): " + goals.join("*");
+  document.getElementById("beforePop").textContent = "Goals before latest update: " + goals;
+  goals.pop();
+  document.getElementById("afterPop").textContent = "Goals after removing last match: " + goals;
+  function add(a, b) {
+    return a + b;
+  }
+  function average(a, b) {
+    return add(a, b) / 2;
+  }
+  let avgGoals = average(7, 5);
+  document.getElementById("functionResult").textContent = "Average goals per match by Lamine Yamal and Raphinha: " + avgGoals;
+</script>
+</body>
+</html>
