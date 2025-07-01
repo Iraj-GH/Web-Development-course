@@ -1,0 +1,100 @@
+<html>
+<head>
+  <title>Leo Messi's Magic Playground</title>
+  <style>
+    body {
+      background-color: #003087; /* Barcelona blue */
+      color: #faa61a; /* Barcelona gold */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      background-image: url('https://upload.wikimedia.org/wikipedia/en/1/10/FC_Barcelona_crest.svg');
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: 80px;
+    }
+
+    h1 {
+      color: #d70a53; /* Messi's Argentina pink-ish tone */
+      text-align: center;
+      font-weight: 900;
+      text-shadow: 2px 2px #000000a0;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      border: 2px solid #faa61a;
+      padding: 20px;
+      border-radius: 15px;
+      background-color: #112d5b;
+      box-shadow: 0 0 15px #faa61aaa;
+      transition: transform 0.3s ease;
+    }
+    .section:hover {
+      box-shadow: 0 0 25px #d70a53ff;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #ffcc00;
+      font-family: 'Georgia', serif;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Messi's Magic with JavaScript 🐐⚽</h1>
+
+  <div class="section" id="messiTypes"></div>
+
+  <div class="section" id="voteMessi"></div>
+
+  <div class="section" id="positiveMessi"></div>
+
+  <div class="section" id="oddEvenMessi"></div>
+
+  <script>
+    // 1. Messi Stats Types
+    var dribbling = 10; // Messi's dribbling score out of 10
+    var goalsPerMatch = 0.8; // Goals per match average
+    var famousTeammates = "Iniesta, Xavi, Suarez, Neymar";
+    var isGOAT = true;
+
+    document.getElementById("messiTypes").innerHTML =
+      "<h2>Messi Stats & Types ⚽🐐</h2>" +
+      "Dribbling score: " + dribbling + "<br>Type: " + typeof dribbling + "<br><br>" +
+      "Goals per match: " + goalsPerMatch + "<br>Type: " + typeof goalsPerMatch + "<br><br>" +
+      "Famous teammates: " + famousTeammates + "<br>Type: " + typeof famousTeammates + "<br><br>" +
+      "Is Messi the GOAT?: " + isGOAT + "<br>Type: " + typeof isGOAT;
+
+    // 2. Messi Voting Eligibility (Age Check for Messi Awards)
+    var messiAge = prompt("Enter Messi's age to check award eligibility:");
+    var awardEligible = (messiAge >= 18 && messiAge <= 40) 
+      ? "Messi is eligible for the Ballon d'Or 🏆" 
+      : "Messi is not eligible for the Ballon d'Or ❌";
+
+    document.getElementById("voteMessi").innerHTML =
+      "<h2>Ballon d'Or Eligibility 🏆</h2>" + awardEligible;
+
+    // 3. Messi's Goal Count: Positive or Negative Impact
+    let goalsToday = Number(prompt("Enter number of goals Messi scored today:"));
+    let goalImpact = (goalsToday > 0) 
+      ? "Messi's performance was positive! 🔥" 
+      : "Messi had a quiet game today ⚽";
+
+    document.getElementById("positiveMessi").innerHTML =
+      "<h2>Match Impact Analysis 🔥⚽</h2>" + goalImpact;
+
+    // 4. Messi Jersey Number Odd or Even
+    let jerseyNumber = Number(prompt("Enter Messi's jersey number to check odd/even:"));
+    let modResult = jerseyNumber % 2;
+    let oddEvenMsg = (modResult === 0) 
+      ? "Messi rocks an even jersey number! 🔵🔴" 
+      : "Messi prefers an odd jersey number! 🔥🐐";
+
+    document.getElementById("oddEvenMessi").innerHTML =
+      "<h2>Jersey Number Odd or Even 🔢</h2>" +
+      "Remainder when divided by 2: " + modResult + "<br>" + oddEvenMsg;
+  </script>
+
+</body>
+</html>
