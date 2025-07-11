@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>☁️ Cloudy Classes in JavaScript ☁️</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to top, #cceeff, #e6f7ff);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cloud-container {
+      background: white;
+      border-radius: 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      padding: 40px;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #3399ff;
+      margin-bottom: 20px;
+    }
+
+    .note {
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cloud-container">
+    <h1>☁️ Cloud Classes ☁️</h1>
+    <p class="note">Open the browser console to see your cloud data!</p>
+  </div>
+
+  <script>
+    class Cloud {
+      constructor(type, height) {
+        this.type = type;
+        this.height = height;
+      }
+
+      describe() {
+        return `This is a ${this.type} cloud floating at ${this.height} meters.`;
+      }
+    }
+
+    const cloud1 = new Cloud("Cumulus", 2000);
+    console.log(cloud1.describe());
+
+    class StormCloud extends Cloud {
+      constructor(type, height, thunder) {
+        super(type, height);
+        this.thunder = thunder;
+      }
+
+      stormInfo() {
+        return `The ${this.type} cloud has ${this.thunder} thunder level.`;
+      }
+    }
+
+    const stormy = new StormCloud("Nimbus", 1500, "high");
+    console.log(stormy.describe());
+    console.log(stormy.stormInfo());
+
+    class SkyTools {
+      static measureRain(mm) {
+        return `${mm}mm of rain recorded.`;
+      }
+    }
+
+    console.log("Rainfall Report:", SkyTools.measureRain(32));
+  </script>
+</body>
+</html>
