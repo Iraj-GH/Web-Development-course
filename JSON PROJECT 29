@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ice Cream JS - JSON & Async</title>
+  <style>
+    body {
+      background: #fff8e7;
+      color: #6b4f4f;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 3px solid #f7c59f;
+      padding-bottom: 8px;
+      margin-top: 40px;
+    }
+    p {
+      background: #fff2d4;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 1px 1px 4px #d3bfa0;
+      max-width: 550px;
+    }
+  </style>
+</head>
+<body>
+<h2>Ice Cream JSON: Flavors Object to JSON and Back</h2>
+<p id="json_result"></p>
+<h2>Ice Cream Callback: Scoop Counting</h2>
+<p id="callback_result"></p>
+<h2>Ice Cream Promise: Checking Stock</h2>
+<p id="promise_result"></p>
+<h2>Ice Cream Async/Await: Order Total</h2>
+<p id="async_result"></p>
+<script>
+var iceCreamObj = { flavor: "Vanilla", scoops: 3, cone: "Waffle" };
+var jsonText = JSON.stringify(iceCreamObj);
+var parsedObj = JSON.parse(jsonText);
+document.getElementById("json_result").innerHTML = "Flavor received: " + parsedObj.flavor;
+
+function displayResult(value) {
+  document.getElementById("callback_result").innerHTML = "Scoops counted: " + value;
+}
+function countScoops(num1, num2, callback) {
+  let total = num1 + num2;
+  callback(total);
+}
+countScoops(2, 3, displayResult);
+
+function checkStock() {
+  return new Promise(function(resolve, reject) {
+    let stock = 5;
+    if (stock > 0) {
+      resolve("Stock available");
+    } else {
+      reject("Out of stock");
+    }
+  });
+}
+checkStock().then(function(msg) {
+  document.getElementById("promise_result").innerHTML = msg;
+}, function(err) {
+  document.getElementById("promise_result").innerHTML = err;
+});
+
+async function calculateTotal(scoops, pricePerScoop) {
+  let total = await new Promise(resolve => {
+    setTimeout(() => resolve(scoops * pricePerScoop), 1000);
+  });
+  document.getElementById("async_result").innerHTML = "Order total: $" + total;
+}
+calculateTotal(4, 1.5);
+</script>
+</body>
+</html>
