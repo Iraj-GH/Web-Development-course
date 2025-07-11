@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grass Science - JavaScript in Detail</title>
+  <style>
+    body {
+      background: #e6f2e6;
+      color: #2f4f2f;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #3a7d44;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    p {
+      background: #f0f9f0;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 1px 1px 3px #b2d8b2;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+<h2>Grass Types and Growth: Understanding Data Types</h2>
+<p id="type_conversion"></p>
+<h2>Grass Patterns: Search and Replace</h2>
+<p id="regex_result"></p>
+<p id="regex_search"></p>
+<h2>Scientific Errors: Handling Unexpected Results</h2>
+<p id="error_message"></p>
+<h2>Grass Science: Simple Calculations with Arrow Functions</h2>
+<p id="arrow_result"></p>
+<script>
+var x = 70;
+var y = 90;
+document.getElementById("type_conversion").innerHTML = "typeof x: " + typeof x + ", typeof string(x): " + typeof String(x) + 
+"<br>Number addition: " + (x + y) + ", String concatenation: " + String(x) + String(y);
+var text = "Green grass grows fast";
+document.getElementById("regex_result").innerHTML = text.replace(/grass/, "plants");
+document.getElementById("regex_search").innerHTML = "'grows' found at position: " + text.search(/grows/);
+try {
+  nonExistentFunction();
+} catch(err) {
+  document.getElementById("error_message").innerHTML = err.message;
+}
+const add = (a,b) => a + b;
+document.getElementById("arrow_result").innerHTML = add(4,6);
+</script>
+</body>
+</html>
