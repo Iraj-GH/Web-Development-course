@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Himalayan Explorer</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to top, #dcefff, #f4fcff);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .box {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 500px;
+    }
+
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      background: #5ca0d3;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    h2 {
+      color: #336699;
+    }
+
+    p {
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>🏔️ Himalayan Data Explorer 🏔️</h2>
+    <p><strong>Snow Depth (in cm):</strong></p>
+    <p id="snowData">Loading...</p>
+    <button onclick="sortAsc()">Sort Ascending</button>
+    <button onclick="sortDesc()">Sort Descending</button>
+    <hr>
+    <p><strong>Mapped Snow Depth (×10):</strong></p>
+    <p id="mappedData"></p>
+    <button onclick="mapSnow()">Map Snow Data</button>
+    <hr>
+    <p><strong>Evaluate Height Difference:</strong></p>
+    <button onclick="evaluate()">Evaluate</button>
+    <p id="evalResult"></p>
+  </div>
+
+  <script>
+    var snowDepth = [280, 60, 190, 950];
+    document.getElementById("snowData").innerHTML = snowDepth;
+
+    function sortAsc() {
+      snowDepth.sort(function(a, b) { return a - b; });
+      document.getElementById("snowData").innerHTML = snowDepth;
+    }
+
+    function sortDesc() {
+      snowDepth.sort(function(a, b) { return b - a; });
+      document.getElementById("snowData").innerHTML = snowDepth;
+    }
+
+    function mapSnow() {
+      var mapped = snowDepth.map(function(depth) {
+        return depth * 10;
+      });
+      document.getElementById("mappedData").innerHTML = mapped;
+    }
+
+    function evaluate() {
+      var height1 = 8848;
+      var height2 = 6812;
+      var difference = height1 - height2;
+      var combined = height1 + height2;
+      document.getElementById("evalResult").innerHTML =
+        "Height Difference: " + difference + " m<br>" +
+        "Combined Height: " + combined + " m";
+    }
+  </script>
+</body>
+</html>
