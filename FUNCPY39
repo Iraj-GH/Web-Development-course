@@ -1,0 +1,19 @@
+def add(a, b):
+    print(f"sum of {a} and {b} is : {a+b}")
+
+def subtract(a, b):
+    print(f"difference of {a} and {b} is : {a-b}")
+
+def multiply(a, b):
+    print(f"product of {a} and {b} is : {a*b}")
+
+def divide(a, b):
+    if b == 0:
+        print("cannot divide by zero")
+    else:
+        print(f"quotient of {a} and {b} is : {a/b}")
+
+add(10, 90)
+subtract(200, 35)
+multiply(15, 7)
+divide(100, 20)
