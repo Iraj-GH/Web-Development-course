@@ -1,0 +1,44 @@
+import turtle
+
+arrow = turtle.Turtle()  
+sc = turtle.Screen()
+sc.bgcolor("black")
+arrow.speed(0)
+
+colorList = ("orange","yellow", "gold", "wheat", "white","yellow1","yellow2","yellow3","gold1","gold2")
+
+for i in range(30):
+    arrow.pencolor(colorList[i % len(colorList)])  # cycle through list
+    arrow.forward(i * 3)
+    arrow.left(144)
+
+arrow.penup()   
+arrow.goto(100,200)
+arrow.pendown()
+
+for i in range(30):
+    arrow.pencolor(colorList[i % len(colorList)])  # cycle through list
+    arrow.forward(i * 3)
+    arrow.left(144)
+
+arrow.penup()       
+arrow.goto(-200,200)
+arrow.pendown()
+
+for i in range(30):
+    arrow.pencolor(colorList[i % len(colorList)])  # cycle through list
+    arrow.forward(i * 3)
+    arrow.left(144)
+
+arrow.penup()       
+arrow.goto(300,100)
+arrow.pendown()
+
+for i in range(30):
+    arrow.pencolor(colorList[i % len(colorList)])  # cycle through list
+    arrow.forward(i * 3)
+    arrow.left(144)
+
+
+
+turtle.done()
