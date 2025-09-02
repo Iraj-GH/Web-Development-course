@@ -1,0 +1,57 @@
+todoList = []
+
+def addTask():
+    taskName = input("Enter a task: ")
+    todoList.append(taskName)
+    print(taskName, "is added in the to-do list")
+
+def removeTask():
+    taskName = input("Enter a task to remove: ")
+    if taskName in todoList:
+        todoList.remove(taskName)
+        print(taskName, "is removed from the to-do list")
+    else:
+        print("Task not found")
+
+def displayTasks():
+    if not todoList:
+        print("Your To-Do List is empty.")
+    else:
+        print("Your To-Do List:")
+        for t in todoList:
+            print("-", t)
+
+def searchTask():
+    taskName = input("Enter a task to search: ")
+    if taskName in todoList:
+        print(taskName, "is present in the to-do list")
+    else:
+        print(taskName, "is not found")
+
+menu = """
+------- To-Do App -------
+1. Add Task
+2. Remove Task
+3. Display All Tasks
+4. Search Task
+5. Exit
+-------------------------
+"""
+
+while True:
+    print(menu)
+    choice = int(input("Enter your choice: "))
+
+    if choice == 1:
+        addTask()
+    elif choice == 2:
+        removeTask()
+    elif choice == 3:
+        displayTasks()
+    elif choice == 4:
+        searchTask()
+    elif choice == 5:
+        print("Goodbye!")
+        break
+    else:
+        print("Invalid choice")
