@@ -1,0 +1,29 @@
+class Animal:
+    # 1. properties: species, age, color, sound
+    # 2. behaviour: make_sound, sleep
+    # 3. SOUL : constructor: one that constructs objects
+
+    def __init__(self, speciesValue, ageValue, colorValue, soundValue):
+        self.species = speciesValue
+        self.age = ageValue
+        self.color = colorValue
+        self.sound = soundValue
+        print("Animal Class Constructor")
+
+    def eat(self):
+        print("The animal is eating")
+
+    def sleep(self):
+        print("The animal is sleeping")
+
+# objects of Animal Class
+dog = Animal("Dog", 3, "Brown", "Bark")
+cat = Animal("Cat", 2, "White", "Meow")
+
+print(dog.species)
+print(dog.sound)
+dog.eat()
+
+print(cat.species)
+print(cat.color)
+cat.sleep()
