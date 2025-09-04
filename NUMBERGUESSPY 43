@@ -1,0 +1,24 @@
+# Number to guess
+secret_number = 7
+
+# List to store guesses
+guesses = []
+
+print("Welcome to the Number Guessing Game!")
+print("Guess a number between 1 and 10")
+
+while True:
+    user_input = input("Enter your guess: ")
+    guess = int(user_input)
+
+    guesses.append(guess)
+
+    if guess == secret_number:
+        print("Congratulations! You guessed it right.")
+        break
+    else:
+        print("Wrong guess! Try again.")
+
+# Show guesses
+print("Your guesses were:", guesses)
+print("Total guesses:", len(guesses))
