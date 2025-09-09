@@ -1,0 +1,24 @@
+class BankAccount:
+    def __init__(self, acNumValue, acHolderValue, balance):
+        self.acNum = acNumValue
+        self.acHolder = acHolderValue
+        self.balance = balance
+        print("Account created")
+
+    def checkBalance(self):
+        print("Hi", self.acHolder, "! Your balance is", self.balance)
+
+    def deposit(self, amount):
+        self.balance += amount
+        print(amount, "is deposited in your account,", self.acHolder)
+
+    def withdraw(self, amount):
+        self.balance -= amount
+        print(self.acHolder, amount, "is withdrawn from your account")
+
+iraj = BankAccount("12345", "Iraj Bastakoti", 10000)
+
+amount = int(input("Enter the amount to withdraw: "))
+iraj.withdraw(amount)
+
+iraj.checkBalance()
