@@ -1,0 +1,30 @@
+class Vehicle:
+    def __init__(self):
+        print("The vehicle is moving")
+    
+    def f1(self):
+        print("f1 is from Vehicle class")
+
+class Car(Vehicle):
+    def __init__(self):
+        super().__init__()
+        print("The car is honking")
+    
+    def f2(self):
+        print("f2 is from Car class")
+
+class Bike(Vehicle):
+    def __init__(self):
+        super().__init__()
+        print("The bike kick starts")
+    
+    def f3(self):
+        print("f3 is from Bike class")
+
+c = Car()
+c.f1()
+c.f2()
+
+b = Bike()
+b.f1()
+b.f3()
