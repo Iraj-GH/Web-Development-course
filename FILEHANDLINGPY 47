@@ -1,0 +1,20 @@
+fileRef = open(r'Web Development (AKR)\Python(S&S)\note.txt','a')
+
+num = int(input("Enter a number: "))
+
+content=f"Multipliation table of {num} :\n"
+for i in range(1,101):
+    content += f"{num} X {i} = {num*i} \n"
+
+fileRef.write(content)
+
+#x = input("Enter name : ")
+#y = input("Enter address : ")
+#z = input("Fav Programming Language : ")
+
+#txt = x+"  "+y+"  "+z+"\n"
+#fileRef.write(txt)
+
+#fileRef.seek(0)
+#print(fileRef.read())
+
