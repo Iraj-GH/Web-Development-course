@@ -1,0 +1,32 @@
+file = open(r'Web Development (AKR)\Python(S&S)\note.txt','r')
+
+#print(file.read(25))
+#line1 = (file.readline())
+#line2 = (file.readline())
+#line3 = (file.readline())
+#print(line1)
+#print(line2)
+#print(line3)
+
+#conent = file.readline()
+#print(conent)
+#conent = file.readline()
+#print(conent)
+#conent = file.readline()
+#print(conent)
+#conent = file.readline()
+#print(conent)
+#conent = file.readline()
+#print(conent)
+conent = file.readline()
+print(conent)
+
+# read karne k liye hamare pas me kuchh functions hain
+
+#1. read() ---> it will read the whole file
+
+# 2. read(numberOfCharacters) --> it will read the number of characters
+
+# 3. readline()---> it will read the single line
+
+# 4. readlines() --> it reads all lines and store the lines in form of list
