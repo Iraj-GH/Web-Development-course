@@ -1,0 +1,26 @@
+from tkinter import *
+import requests
+
+win = Tk()
+win.geometry("900x700")
+win.title("My Dictionary")
+
+def f1():
+    word = entry.get()
+    res = requests.get(f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}")
+    meaning = res.json()[0]["meanings"][0]["definitions"][0]["definition"]
+    label2.config(text=meaning)
+
+label = Label(win, text="Enter a word", font=("Arial", 25))
+label.pack(pady=10)
+
+entry = Entry(win, font=("Arial", 15))
+entry.pack(pady=10)
+
+search = Button(win, text="Find Meaning", font=("Arial", 20), bg="blue", fg="white", command=f1)
+search.pack(pady=10)
+
+label2 = Label(win, text="", font=("Arial", 15), wraplength=500, justify="left")  # Optional formatting
+label2.pack(pady=10)
+
+win.mainloop()
