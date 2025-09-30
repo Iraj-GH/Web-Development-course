@@ -1,0 +1,20 @@
+#fileName = input("Enter the file name: ")
+
+#try:
+    #file = open((fileName) + ".txt", "x")  
+    #print("File created successfully!")
+    #file.close()
+#except Exception as e:
+    #print("File already exists or an error occurred:", e)
+
+
+import os
+
+filePath = input("Input File Path: ")
+
+if os.path.exists(filePath):
+    print("The file Exists")
+    os.remove(filePath)
+    print("Existing file removed")
+else:
+    print("The file Doesn't Exist")
