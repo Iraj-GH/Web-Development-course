@@ -1,0 +1,34 @@
+from tkinter import *
+from PIL import Image, ImageTk
+from tkinter import messagebox
+
+win = Tk()
+win.geometry("500x500")
+win.title("Image Viewer")
+
+img = Image.open(r"C:\Users\dell\OneDrive\Desktop\Iraj\Web Development\Web Development (AKR)\Python(S&S)\tkinterclasses\Mario.png")
+
+imgTK = ImageTk.PhotoImage(img)
+
+def openTopLevelWindow():
+    tp = Toplevel()
+    tp.geometry("300x300")
+    tp.title("xyz")
+    label1 = Label(tp, text="hello")
+    label1.pack()
+
+    button1 = Button(tp, text="Child Window", command=openTopLevelWindow)
+    button1.pack()
+
+
+#def openMessageBox():
+    #messagebox.showwarning("Warning","Image is used by another app cant be deleted!")
+
+#label = Label(win, image=imgTK, width=440, height=400)
+#label.pack()
+
+button = Button(win,text="Window",command=openTopLevelWindow)
+button.pack()
+
+
+win.mainloop()
