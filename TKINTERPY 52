@@ -1,0 +1,58 @@
+from tkinter import *
+
+win = Tk()
+win.geometry("1000x700")
+win.title("Calculator")
+
+def add():
+    num1 = int(entry1.get())
+    num2 = int(entry2.get())
+    sum = num1+num2
+    res.config(text=f"Sum={sum}")
+
+def sub():
+    num1 = int(entry1.get())
+    num2 = int(entry2.get())
+    dif = num1-num2
+    res.config(text=f"Difference={dif}")
+
+def div():
+    num1 = int(entry1.get())
+    num2 = int(entry2.get())
+    quo = num1/num2
+    res.config(text=f"Quitient={quo}")
+
+def mul():
+    num1 = int(entry1.get())
+    num2 = int(entry2.get())
+    pro = num1*num2
+    res.config(text=f"Product={pro}")
+
+
+
+input1 = Label(win,text="First Number",font=("Impact",20))
+input1.pack(pady=30)
+entry1 = Entry(win, font=("Arial",20))
+entry1.pack()
+
+input2 = Label(win,text="Second Number",font=("Impact",20))
+input2.pack(pady=30)
+entry2 = Entry(win, font=("Arial",20))
+entry2.pack()
+
+addB = Button(win,text="+",bg="#B0E0E6",fg="Blue",width=6,height=2,font=("Impact",19),command=add)
+addB.place(x=425,y=290)
+
+subB = Button(win,text="-",bg="#B0E0E6",fg="Blue",width=6,height=2,font=("Impact",19),command=sub)
+subB.place(x=525,y=290)
+
+divB = Button(win,text="/",bg="#B0E0E6",fg="Blue",width=6,height=2,font=("Impact",19),command=div)
+divB.place(x=425,y=390)
+
+mulB = Button(win,text="*",bg="#B0E0E6",fg="Blue",width=6,height=2,font=("Impact",19),command=mul)
+mulB.place(x=525,y=390)
+
+res = Label(win,text=" ",font=("Arial",35),fg="Lime")
+res.place(x=400,y=490)
+
+win.mainloop()
